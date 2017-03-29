@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<title> Dhruv Thakkar </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       	<link rel="stylesheet" type="text/css" href="websitedesign.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="animate.css">
+        <script src="wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+        <script>
+            $(function(){
+                $('a').each(function(){
+                    if ($(this).prop('href') == window.location.href) {
+                        $(this).addClass('active'); $(this).parents('li').addClass('active');
+                    }
+                });
+            });
+        </script>
+	</head>
+    
+	<body>
+        <style type="text/css">
+            body 
+            { 
+                background: #F8F9F9; 
+            }
+        </style>
+        
+        <nav class="navbar navbar-default">
+            <div class="header container-fluid">
+                <ul class="ul1">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" href="Website.html">Dhruv Thakkar</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav">
+                        <li><a href="Website.html">About</a></li>
+                        <li><a href="Education.html">Education & Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="News.html">Activities</a></li>
+                        <li><a href="contact.html" class="active-page">Contact</a></li>
+                      </ul>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        
+        <br>
+        <div class="container" style="font-family: Trajan">
+        <div class="row">
+        	<div class="col-md-12">
+        		<h3 class="wow flipInX">Contact Me</h3>
+        		<p><b>Email</b> : thakkardhruv97@gmail.com</p>
+        		<p><b>Cell No</b> : +91-8460006026</p>
+        		<p><b>You can also</b> <div id="b1"><button type="button" class="btn btn-primary">Fill up the form</button></div></p>
+        		<br><br>
+        	</div>
+        	
+        	
+        	
+        </div>
+        <div class="row" id="ifr1">
+        	<div class="col-md-12 text-center">
+        		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdvxa2aPjquPLhWfi2VdNBG3LONHB94aZRkFxlzTGFEi0pKwg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="1000px">Loading...</iframe>
+        	</div>
+        </div>
+        </div>
+        
+
+        
+        <div class="container-fluid ContaintBody">
+            <div class="row">
+                <div class="footer1 col-md-12">
+                    <div class="row">
+                        <div class="col-md-12" id="fi1">
+                            <a href="https://www.linkedin.com/in/dhruv-thakkar-46687a124/" target="_blank"><i class="fa fa-linkedin" id="fc1" aria-hidden="true"></i></a>
+                            <a href="https://github.com/dhruv1304" target="_blank"><i class="fa fa-github" id="fc2" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <p>©2017 Powered by Dhruv Thakkar</p>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+			$( "#b1" ).click(function() {
+			  	$("#ifr1").css( "display", "block" );
+			});
+		</script>
+	</body>
+</html>

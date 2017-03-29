@@ -1,0 +1,213 @@
+#body{
+    background-color: blacks;  
+}	
+.header
+{
+    background-color: #E5E7E9;
+    border-bottom: 0.5px solid #2E86C1;
+}
+
+.y1:hover
+{
+	color: white;
+}
+
+
+
+#idd1
+{
+    padding-top: 0px;
+}
+
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    padding-top: 20;
+    overflow: hidden;
+}
+.l1 {
+    float: left;
+}
+
+.l1 a {
+    display: block;
+    line-height: 4px;
+    color: #7F8C8D;
+    text-align:center;
+    padding: 12px 13px;
+    text-decoration: none;
+}
+
+#dhruv{
+    color: #5D6D7E;
+    font-size: 18px;
+}
+
+.l1 a:hover:not(.active) {
+    color: #212F3C;
+}
+#dhruv:hover
+{
+    color: #212F3C;
+}
+
+#img1
+{
+	padding: 0%;
+	width: 80%;
+	height: 85%;
+	margin-left: -15;
+}
+
+.InTd1
+{
+    padding-left: 50;
+}
+
+#c1
+{
+    font-size: 30px;
+}
+#c2
+{
+    font-size: 19px;
+    color: #7B7D7D;
+}
+.c3,#table2
+{
+    font-size: 19px;
+    color: #424949;
+}
+
+#mainData
+{
+    padding-top: 40px;
+}
+
+.footer
+{
+    height: 200px;
+    color: #5D6D7E;
+    background-color: #E5E7E9;
+    text-align: center;
+}
+.footer p
+{
+    padding-top: 20px;
+    font-size: 25px;
+}
+#fi1
+{
+    color: black;
+}
+
+#fc1,#fc2
+{
+    padding-top: 60px;
+    font-size: 30px;
+    color: black;
+}
+
+#fc1:hover,#fc2:hover
+{
+    color: #85929E;
+    -webkit-transition: all 100ms;
+}
+
+#fc3,#fc4,#fc5,#fc6
+{
+	font-size: 40px;
+	color: black;
+}
+#fc3:hover,#fc4:hover,#fc5:hover,#fc6:hover
+{
+	color: #85929E;
+    -webkit-transition: all 100ms;
+}
+
+.b1
+{
+    width: 100%;
+    height: 35px;
+    text-decoration: none;
+    background-color: #F8F9F9;
+    border: 1px #1B4F72 solid;
+}
+.b1:hover
+{
+    color: #F8F9F9;
+    background-color: #1B4F72;
+    border: 1px #F8F9F9 solid;
+    -webkit-transition: all 500ms ease;
+}
+
+#E
+{
+    display: none;
+}
+.ContaintBody
+{
+    background-color: #F8F9F9;
+}
+
+#i1
+{
+    font-size: 150px;
+    padding-left: 70px;
+	padding-top: 40px;
+}
+#i1:hover,#i2:hover
+{
+	color: #828282;
+}
+/* Education & Skills*/
+.sd
+{
+	padding: 7px;
+}
+#i2
+{
+    font-size: 170px;
+	padding-top: 10px;
+	padding-left: 80px;
+}
+
+#A1
+{
+	font-size: 40px;
+}
+
+#A1:hover
+{
+	color: #828282;
+}
+#imgR,#imgR2
+{
+	height: 45px;
+	width: 45px;
+}
+
+#ifr1
+{
+	display: none;
+}
+
+.footer1
+{
+    height: 250px;
+    color: #5D6D7E;
+    background-color: #E5E7E9;
+    text-align: center;
+}
+.footer1 p
+{
+    padding-top: 35px;
+    font-size: 25px;
+}
+
+.active
+{
+    color:red;
+    font-size: large;
+}
