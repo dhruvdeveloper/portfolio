@@ -1,10 +1,8 @@
-#body{
-    background-color: blacks;  
-}	
+
 .header
 {
     background-color: #E5E7E9;
-    border-bottom: 0.5px solid #2E86C1;
+    border-bottom: 10px solid #186396;
 }
 
 .y1:hover
