@@ -2,7 +2,6 @@
 .header
 {
     background-color: #E5E7E9;
-    border-bottom: 10px solid #186396;
 }
 
 .y1:hover
@@ -130,14 +129,49 @@
     height: 35px;
     text-decoration: none;
     background-color: #F8F9F9;
-    border: 1px #1B4F72 solid;
 }
 .b1:hover
 {
-    color: #F8F9F9;
-    background-color: #1B4F72;
-    border: 1px #F8F9F9 solid;
     -webkit-transition: all 500ms ease;
+}
+#bb1
+{
+    border: 1px #922B21 solid;color: #922B21;
+}
+#bb1:hover
+{
+    background-color: #922B21;
+    color: #F8F9F9;
+}
+
+#bb2
+{
+    border: 1px #B7950B solid;color: #B7950B;
+}
+#bb2:hover
+{
+    background-color: #B7950B;
+    color: #F8F9F9;
+}
+
+#bb3
+{
+    border: 1px #1F618D solid;color: #1F618D;
+}
+#bb3:hover
+{
+    background-color:#1F618D;
+    color: #F8F9F9;
+}
+
+#bb4
+{
+    border: 1px #0E6655 solid;color: #0E6655;
+}
+#bb4:hover
+{
+    background-color: #0E6655;
+    color: #F8F9F9;
 }
 
 #E
@@ -152,8 +186,6 @@
 #i1
 {
     font-size: 150px;
-    padding-left: 70px;
-	padding-top: 40px;
 }
 #i1:hover,#i2:hover
 {
@@ -167,8 +199,6 @@
 #i2
 {
     font-size: 170px;
-	padding-top: 10px;
-	padding-left: 80px;
 }
 
 #A1
